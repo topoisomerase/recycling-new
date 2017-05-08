@@ -50,20 +50,13 @@
     </div>
     <div id="research">
       <article>
-      <div class="w3-container">
         <h2>Research</h2>
-        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>
+        <img src="research.jpg" onclick="document.getElementById('research').style.display='block'" class="w3-hover-opacity">
 
-        <div id="grant" class="modal">
-          <div class="w3-modal-content">
-            <div class="w3-container">
-              <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-              <p>Some text. Some text. Some text.</p>
-              <p>Some text. Some text. Some text.</p>
-            </div>
-          </div>
+        <div id="research" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+          <img class="w3-modal-content" src="research.jpg">
         </div>
-      </div>
+
       </article>
     </div>
     <div id="budget">
