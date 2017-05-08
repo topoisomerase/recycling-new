@@ -51,10 +51,18 @@
     <div id="research">
       <article>
         <h2>Research</h2>
-        <img src="research.jpg" onclick="document.getElementById('research').style.display='block'" class="w3-hover-opacity">
 
-        <div id="research" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
-          <img class="w3-modal-content" src="research.jpg">
+        <div class="padding">
+        <div class="container">
+          <img src="images/research1.png" style="width:30%" onClick="onClick();">
+        </div>
+        <div class="container">
+          <img src="images/research2.png" style="width:30%" onClick="onClick();">
+        </div>
+        </div>
+
+        <div id="modal" class="modal" onclick="this.style.display='none'">
+          <img class="modalContent" id="modalImg" style="width:30%">
         </div>
 
       </article>

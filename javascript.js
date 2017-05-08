@@ -33,3 +33,9 @@ function calculator(){
   document.getElementById("fundNet").innerHTML = netFund;
   document.getElementById("totPickCost").innerHTML = pickUpTotal;
 }
+
+//modal
+function onClick(){
+  document.getElementById("modalImg").src = element.src;
+  document.getElementById("modal").style.display = "block";
+}
