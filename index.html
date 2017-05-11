@@ -8,23 +8,45 @@
 <body>
   <header id="mainHeader">
     <p id="name">LMHS Recycling</p>
-    <nav>
+    
+<nav>
+
       <li class="activePage" id="home"><a href="#">Home</a></li>
       <li class=""><a href="about.html">About</a></li>
-      <li classs""><a href="research.html">Research</a></li>
+      <li class""><a href="research.html">Research</a></li>
       <li class=""><a href="budget.html">Budget</a></li>
       <li class=""><a href="contact.html">Contact</a></li>
-    </nav>
-  </header>
+<!--     
+     	<div id="hide">
+      <ul class="dropdown">
+  		
+ 			<li>
+   		 <a href="javascript:void(0)" class="dropbtn">Menu</a>
+    			<div class="dropdown-content">
+     				
+     				<a href="#">Home</a>
+      				<a href="#">About</a>
+      				<a href="#">Research</a>
+    				<a href="#">Budget</a>
+    				<a href="#">Contact</a>
+    			</div>
+    			</div>
+    </div>
+  </li>
+</ul> -->
+
+    </div>
+   </nav>
+</header>
 
   <div id="mainContent">
     <div id="index">
-      <img src="images/logo.png" alt="recycling logo">
+      <img id="imglogo" src="images/logo.png" alt="recycling logo">
     </div>
     <div id="about">
       <article>
       <h2>Our Mission</h2>
-      <p>We are committed to helping improve the environment through reducing Lee High School's environmental impact. We're starting this initiative at LMHS by creating a recycling program and hosting awareness events throughout the school year, in cooperation with the Eco Club.</p>
+      <p>We are committed to helping improve the environment through reducing Lee High School's environmental impact and cost. Our goal is to reduce the amount of waste produced by the school through various recycling measures.</p>
       </article>
       <article>
         <h1>Why Recycle?</h1>
@@ -34,26 +56,25 @@
             <li>harms wild animals and the natural environment</li>
             <li>produces methane gas</li>
             <li>and much more</li></p>
-          <p>In the US, Louisiana ranks:
+          <p>Louisiana ranks:
             <li>47th, environmental quality</li>
             <li>48th, energy consumption</li>
             <li>50th, eco-friendly behavior</li>
           </p>
-          <!--<p>Recycling initivatives have been taken up by schools all over the parish (see list below) and we want Lee High School to join them. in working to protect the environment.
+          <p>Recycling initivatives have been taken up by schools all over the parish (see list below) and we want Lee High School to join them in working to heal the environment.
             <li>Westdale Heights Academic Magnet School</li>
             <li>Tara High School</li>
             <li>Baton Rouge Magnet High School</li>
             <li>and others around the state, including Benjamin Franklin High School and John Ehret High School in New Orleans and St Margaret Catholic School in Lake Charles.</li>
             <br>
-          -->
           </content>
         </article>
     </div>
     <div id="research">
       <article>
-        <h2>Research</h2>
-
-        <div class="padding">
+      <h2>Research</h2>
+            
+      	<div class="padding">
         <div class="container">
           <img src="images/research1.png" style="width:30%" onClick="onClick();">
         </div>
@@ -66,11 +87,14 @@
           <img class="modalContent" id="modalImg" style="width:30%">
         </div>
 
+
+
+
       </article>
     </div>
     <div id="budget">
       <article>
-        <h2>Budget Calculator</h2>
+        <h2 id="budgetTitle">Budget Calculator</h2>
         <form>
           <label>fundraising: </label>$<span id="fundNet"></span><br>
             <label>cost: $</label>
