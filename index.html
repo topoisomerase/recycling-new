@@ -75,21 +75,39 @@
       <article>
         <h2>Research</h2>
 
-        <div class="padding">
+       <!--      	<div class="padding">
         <div class="container">
-        <!--  <img src="images/research1.png" style="width:30%" onClick="onClick();"> -->
-          <img src="images/research1.png" style="width:30%">
+          <img src="images/research1.png" style="width:30%" onClick="onClick();">
         </div>
         <div class="container">
-        <!--  <img src="images/research2.png" style="width:30%" onClick="onClick();"> -->
-          <img src="images/research2.png" style="width:30%">
+          <img src="images/research2.png" style="width:30%" onClick="onClick();">
         </div>
         </div>
-<!--
+
         <div id="modal" class="modal" onclick="this.style.display='none'">
           <img class="modalContent" id="modalImg" style="width:30%">
         </div>
+
 -->
+
+<!-- Trigger the Modal -->
+<img id="myImg" src="images/research1.png" alt="research1" width="200" height="300">
+
+<img id="myImg" src="images/research2.png" alt="research1" width="200" height="300">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
       </article>
     </div>
     <div id="budget">
