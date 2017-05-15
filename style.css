@@ -353,3 +353,10 @@ height:140px;
 .padding:hover img {
   transform: scale(2.5);
 }
+	
+/* 100% Image Width on Smaller Screens */
+{
+    .modal-content {
+        width: 100%;
+    }
+}
