@@ -3,19 +3,19 @@
   <title>LMHS Recycling</title>
   <link rel="stylesheet" href="style.css" type="text/css">
   <script type="text/javascript"  src ="javascript.js"></script>
-  <script type="text/javascript" src="scroll.js"></script>
+  <script src="dist/js/smooth-scroll.js"></script>
 </head>
 
 <body>
   <header id="mainHeader">
-    <p id="name">LMHS Recycling</p>
+    <span id="name">LMHS Recycling</span>
     <nav>
 
-        <li class="activePage" id="home"><a href="#index">Home</a></li>
-        <li class=""><a href="#about">About</a></li>
-        <li class=""><a href="#research">Research</a></li>
-        <li class=""><a href="#budget">Budget</a></li>
-        <li class=""><a href="#contact">Contact</a></li>
+        <li id="home"><a data-scroll href="#index">Home</a></li>
+        <li><a data-scroll href="#about">About</a></li>
+        <li><a data-scroll href="#research">Research</a></li>
+        <li><a data-scroll href="#budget">Budget</a></li>
+        <li><a data-scroll href="#contact">Contact</a></li>
   <!--
        	<div id="hide">
         <ul class="dropdown">
@@ -45,7 +45,7 @@
     </div>
     <div id="about">
       <article>
-      <h2>Our Mission</h2>
+      <h1>Our Mission</h1>
       <p>We are committed to helping improve the environment through reducing Lee High School's environmental impact. We're starting this initiative at LMHS by creating a recycling program and hosting awareness events throughout the school year, in cooperation with Lee High's Eco Club.</p>
       </article>
       <article>
@@ -83,36 +83,34 @@
           <img src="images/research2.png" style="width:30%" onClick="onClick();">
         </div>
         </div>
-
         <div id="modal" class="modal" onclick="this.style.display='none'">
           <img class="modalContent" id="modalImg" style="width:30%">
         </div>
-
 -->
 
-<!-- Trigger the Modal -->
-<img id="myImg" src="images/research1.png" alt="research1" width="200" height="300">
+        <!-- Trigger the Modal -->
+        <img id="myImg" src="images/research1.png" alt="research1" width="200" height="300">
 
-<img id="myImg" src="images/research2.png" alt="research1" width="200" height="300">
+        <img id="myImg" src="images/research2.png" alt="research1" width="200" height="300">
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
 
-  <!-- The Close Button -->
-  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+          <!-- The Close Button -->
+          <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img01">
 
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
+          <!-- Modal Caption (Image Text) -->
+          <div id="caption"></div>
+        </div>
 
       </article>
     </div>
     <div id="budget">
       <article>
-        <h2>Budget</h2>
+        <h1>Budget</h1>
         <p>We have received a grant from Keep Louisiana Beautiful to reimburse our spending on the project, at a current total of $4,722.90. Below is a calculator designed to find the total amount needed for the project.</p>
         <br>
         <form>
@@ -159,6 +157,10 @@
   <footer id="footer">
     <p>Copyright &copy; 2017 <a href="#">LMHS Recycling Initiative</a></p>
   </footer>
+
+  <script>
+    smoothScroll.init();
+  </script>
 </body>
 
 </html>
