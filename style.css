@@ -384,6 +384,18 @@ height:140px;
   	margin-right: auto;
   	margin-bottom: 50%;
 }
+	
+	#recycleimg{
+	visibility: hidden;
+}
+
+#recycleimg1{
+	visibility: hidden;
+}
+
+#recycleimg2{
+	visibility: hidden;
+}
 
 	#name{
 		font-size: 0px;
