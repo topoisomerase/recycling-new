@@ -13,9 +13,9 @@ body{
 
 #name{
 	position: fixed;
-  bottom: 95%;
+  bottom: 91.3%;
 	margin-left: 1%;
-	z-index: 1;
+	z-index: 2;
 	font-size: 20px;
 
 }
