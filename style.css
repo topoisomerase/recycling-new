@@ -30,6 +30,22 @@ body{
 	margin-right: auto;
 }
 
+#recycleimg{
+	position: absolute; top: 146%; right: 15%;/*top: 225%*/;
+	height: 40%;
+}
+
+#recycleimg1{
+	float: auto;
+	position: absolute; left: 8%; top: 202%;
+	height: 45%;
+}
+
+#recycleimg2{
+	position: absolute; right: 7%; top: 209%;
+	height: 40%;
+}
+
 #mainHeader nav{
 	background-color: /*#78B186*/ #41B584;
 	list-style: none;
