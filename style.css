@@ -13,9 +13,9 @@ body{
 
 #name{
 	position: fixed;
-  bottom: 91.3%;
+  bottom: 95%;
 	margin-left: 1%;
-	z-index: 2;
+	z-index: 1;
 	font-size: 20px;
 
 }
@@ -28,22 +28,6 @@ body{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#recycleimg{
-	position: absolute; top: 146%; right: 15%;/*top: 225%*/;
-	height: 40%;
-}
-
-#recycleimg1{
-	float: auto;
-	position: absolute; left: 8%; top: 202%;
-	height: 45%;
-}
-
-#recycleimg2{
-	position: absolute; right: 7%; top: 209%;
-	height: 40%;
 }
 
 #mainHeader nav{
@@ -86,9 +70,32 @@ h1{
 	visibility: hidden;
 }
 
+#recycleimg{
+	position: absolute;
+  top: 127%;
+  right: 15%;
+  /*top: 225%*/;
+	height: 40%;
+}
+
+#recycleimg1{
+	float: auto;
+	position: absolute;
+  left: 8%;
+  top: 202%;
+	height: 45%;
+}
+
+#recycleimg2{
+	position: absolute;
+  right: 7%;
+  top: 209%;
+	height: 40%;
+}
+
 #about{
 	height: 98%;
-	padding: 5% 10%;
+	padding: 7% 10%;
 	/*padding: 0.5% 0.5%;*/
 	background-color: #E6EAEA;
 }
@@ -383,18 +390,6 @@ height:140px;
   	margin-left: auto;
   	margin-right: auto;
   	margin-bottom: 50%;
-}
-	
-	#recycleimg{
-	visibility: hidden;
-}
-
-#recycleimg1{
-	visibility: hidden;
-}
-
-#recycleimg2{
-	visibility: hidden;
 }
 
 	#name{
